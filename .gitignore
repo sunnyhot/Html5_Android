@@ -29,3 +29,4 @@ proguard/
 # Test JS
 *.js
 *.js.map
+*.v12.suo
