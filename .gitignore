@@ -28,3 +28,4 @@ proguard/
 
 # Test JS
 *.js
+*.js.map
