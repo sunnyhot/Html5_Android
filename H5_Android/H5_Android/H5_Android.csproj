@@ -18,6 +18,10 @@
     <IISExpressUseClassicPipelineMode />
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="img\bg.png" />
+    <Content Include="img\btn.png" />
+    <Content Include="img\btn_press.png" />
+    <Content Include="index.html" />
     <Content Include="packages.config" />
     <None Include="Scripts\jquery-2.1.4.intellisense.js" />
     <Content Include="Scripts\jquery-2.1.4.js" />
@@ -34,7 +38,13 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <TypeScriptCompile Include="lib\iPen.ts" />
+    <TypeScriptCompile Include="lib\view.ts" />
     <TypeScriptCompile Include="Scripts\typings\jquery\jquery.d.ts" />
+    <TypeScriptCompile Include="src\helloworld.ts" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="css\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">12.0</VisualStudioVersion>
